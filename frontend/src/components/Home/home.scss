@@ -1,0 +1,24 @@
+.productsection {
+  &__title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+
+    &__text {
+      color: var(--title-color);
+      font-weight: var(--font-bold);
+      font-size: 25px;
+    }
+  }
+
+  &__container {
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.85rem;
+    padding: 2rem;
+  }
+}

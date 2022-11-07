@@ -1,0 +1,37 @@
+.orderSuccess {
+    position: relative;
+    top: 8rem;
+    height: 80vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    svg {
+        color: #2b3445;
+        font-size: 5vmax;
+    }
+
+    p {
+        font-size: 2vmax;
+    }
+
+    a {
+        background-color: #2b3445;
+        color: white;
+        font: 400 1.5vmax;
+        text-decoration: none;
+        margin-top: 1rem;
+        padding: 1vmax 3vmax;
+        cursor: pointer;
+        border: none;
+        transition: all 150ms ease-in-out;
+
+        &:hover {
+            background-color: var(--button-color);
+            transform: scale(1.1);
+        }
+    }
+
+}

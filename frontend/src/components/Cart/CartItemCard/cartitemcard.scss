@@ -1,0 +1,40 @@
+.cartitemcard {
+
+    display: flex;
+    padding: 1vmax;
+    height: 8vmax;
+    align-items: flex-start;
+    margin-top: 1rem;
+
+    img {
+        width: 5vmax;
+    }
+
+    &__desc {
+        display: flex;
+        margin: 0.7vmax 1vmax;
+        flex-direction: column;
+
+        a {
+            font: 300 1.5vmax cursive;
+            color: rgb(19, 15, 15);
+            text-decoration: none;
+        }
+
+        span {
+            font: 300 1.5vmax;
+            color: rgba($color: #070606, $alpha: 0.8);
+        }
+
+        p {
+            color: var(--button-color);
+            cursor: pointer;
+            padding-top: 0.5rem;
+
+
+            &:hover {
+                color: #070606;
+            }
+        }
+    }
+}

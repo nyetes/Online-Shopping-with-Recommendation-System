@@ -1,0 +1,22 @@
+.useroption {
+    width: 48px;
+    height: 48px;
+    background-color: white;
+}
+
+.speedDial {
+    position: fixed;
+
+    .MuiFab-root {
+        width: 48px;
+        height: 48px;
+        color: #0f3461;
+    }
+
+    &__icon {
+        width: 48px;
+        height: 48px;
+        border-radius: 100%;
+
+    }
+}

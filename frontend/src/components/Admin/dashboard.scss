@@ -1,0 +1,87 @@
+.dashboard {
+    position: absolute;
+    top: 7.5rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.dashboardContainer {
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    // background-color: var(--body-color);
+    background-color: #fff;
+    padding: 0.5rem 0;
+}
+
+.dashboardContainer>h1 {
+
+    color: rgba(0, 0, 0, 0.7);
+    font: 300 2rem "Roboto";
+    text-align: center;
+    width: 50%;
+    padding: 1rem;
+    margin: auto;
+}
+
+.dashboardSummary {
+    margin: 2rem 0;
+}
+
+.dashboardSummary>div {
+
+    display: flex;
+    background-color: white;
+    justify-content: center;
+}
+
+.dashboardSummary>div>p {
+    background-color: var(--topline-header-color);
+    color: white;
+    padding: 1rem;
+    width: 100%;
+    margin: 0 2rem;
+    font: 300 1.3rem "Roboto";
+    text-align: center;
+}
+
+.dashboardSummaryBox2>a {
+    color: rgb(0, 0, 0);
+    font: 300 1.5rem "Roboto";
+    text-align: center;
+    background-color: rgb(255, 233, 174);
+    text-decoration: none;
+    padding: 1.5rem;
+    width: 12vmax;
+    height: 12vmax;
+    margin: 2rem;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all ease-in-out 0.5s;
+
+    &:first-child {
+        background-color: rgb(255, 110, 110);
+        color: rgb(255, 255, 255);
+    }
+
+    &:last-child {
+        background-color: rgb(51, 51, 51);
+        color: rgb(255, 255, 255);
+    }
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+.lineChart {
+    width: 80%;
+    margin: auto;
+}
+
+.doughnutChart {
+    width: 20vmax;
+    margin: auto;
+}

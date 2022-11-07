@@ -1,0 +1,168 @@
+.confirmOrderpage {
+    position: relative;
+    top: 8rem;
+    height: 100vh;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 6fr 3fr;
+    overflow: hidden;
+}
+
+.confirmOrderpage>div:last-child {
+    border-left: 1px solid rgba(0, 0, 0, 0.267);
+}
+
+.confirmshippingArea {
+    padding: 5vmax;
+    padding-bottom: 0%;
+
+
+}
+
+.confirmshippingArea>p {
+    font-size: 24px;
+    font-weight: 400;
+    color: #0f3461;
+}
+
+.confirmshippingAreabox,
+.confirmCartItemContainer {
+    margin: 2vmax;
+}
+
+.confirmshippingAreabox>div {
+    display: flex;
+    margin: 1vmax 0;
+
+    p {
+
+        font: 400 1vmax;
+        color: black;
+
+    }
+
+    span {
+        margin: 0 1vmax;
+        font: 100 1vmax;
+        color: #575757;
+    }
+}
+
+.confirmCartItems {
+    padding: 5vmax;
+    padding-top: 2vmax;
+
+}
+
+.confirmCartItems>p {
+    font-size: 24px;
+    font-weight: 400;
+    color: #0f3461
+}
+
+.confirmCartItemContainer {
+    max-width: 110%;
+    max-height: 20vmax;
+    overflow-y: auto;
+
+    div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 2vmax 0;
+        font: 400 1vmax;
+
+    }
+
+    img {
+        width: 6vmax;
+    }
+
+    a {
+        width: 55%;
+        text-decoration: none;
+        margin: 0 2vmax;
+        color: #575757;
+    }
+
+    span {
+        font: 100 1vmax;
+        color: #575757;
+    }
+}
+
+.orderSummery {
+    padding: 7vmax;
+
+
+}
+
+.orderSummery>p {
+
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.267);
+    box-sizing: border-box;
+    padding: 1vmax;
+    width: 100%;
+    margin: auto;
+    font-size: 24px;
+    font-weight: 400;
+    color: #0f3461
+}
+
+.orderSummery>div>div {
+    display: flex;
+    justify-content: space-between;
+    margin: 2vmax 0;
+
+    p {
+
+        font: 400 1vmax;
+        color: black;
+
+    }
+
+    span {
+        font: 100 1vmax;
+        color: #575757;
+    }
+}
+
+.orderSummaryTotal {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(0, 0, 0, 0.367);
+    padding: 2vmax 0;
+
+    p {
+
+        font: 400 1vmax;
+        color: black;
+
+    }
+
+    span {
+        font: 100 1vmax;
+        color: #575757;
+    }
+
+}
+
+.proccedBtn {
+
+    width: 100%;
+    background-color: var(--button-color);
+    color: var(--container-color);
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.2rem;
+    font-weight: var(--font-normal);
+    cursor: pointer;
+    transition: all 0.3 ease-in-out;
+    outline: none;
+    border: none;
+
+    &:hover {
+        background-color: #8d295f;
+        transition: ease-in-out 0.3;
+    }
+}

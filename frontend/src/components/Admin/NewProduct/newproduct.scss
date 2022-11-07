@@ -1,0 +1,120 @@
+.newProductContainer {
+    width: 100%;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-left: 1px solid rgba(0, 0, 0, 0.267);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+
+}
+
+.createProductHeading {
+    color: car(--title-color);
+    font: 300 2rem;
+    text-align: center;
+    margin: 1rem;
+}
+
+.createProductForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    //  margin-top: 0.8vmax;
+    padding: 2vmax;
+    justify-content: space-evenly;
+    height: 70%;
+    transition: all 0.5s;
+    background-color: #fff;
+    width: 55vh;
+    height: 100vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.267);
+    transition: all 0.5s
+}
+
+
+
+.createProductForm>div {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-top: 2vmax;
+
+}
+
+
+.createProductForm>div>input,
+.createProductForm>div>select,
+.createProductForm>div>textarea {
+    padding: 1vmax 4vmax;
+    padding-right: 1vmax;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    border-radius: 4px;
+    font: 300 1vmax cursive;
+    outline: none;
+}
+
+.createProductForm>div>svg {
+    position: absolute;
+    transform: translate(1vmax);
+    font-size: 2vmax;
+    color: var(--button-color);
+
+}
+
+.createProductFormImage {
+    width: 100;
+    overflow: auto
+}
+
+.createProductFormImage>img {
+    width: 4vmax;
+    height: 4vmax;
+    margin: 1rem 0.5rem;
+}
+
+#createProductFormFile>input {
+    display: flex;
+    padding: 0%;
+
+}
+
+#createProductFormFile>input::file-selector-button {
+    cursor: pointer;
+    width: 100%;
+    height: 5vh;
+    z-index: 2;
+    border: none;
+    margin: 0%;
+    font: 400 1.5vmax cursive;
+    transition: all 0.5s;
+    padding: 0 1vmax;
+    color: rgba(0, 0, 0, 0.8);
+    background-color: rgb(255, 255, 255);
+
+    &:hover {
+        background-color: rgb(234, 200, 200);
+    }
+}
+
+#creatProductBtn {
+    border: none;
+    text-align: center;
+    background-color: var(--button-color);
+    color: var(--container-color);
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.2rem;
+    font-weight: var(--font-normal);
+    transition: all 0.3s;
+    cursor: pointer;
+    margin: 0.5rem 0;
+
+
+    &:hover {
+        background-color: #8d295f;
+        transition: ease-in-out 0.3;
+    }
+}

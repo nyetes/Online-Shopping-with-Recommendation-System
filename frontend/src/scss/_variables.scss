@@ -1,0 +1,45 @@
+/*==Google fonts == */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+/*== css variables == */
+
+:root {
+  --header-height: 5rem;
+  /*== Colors==*/
+  --topline-header-color: hsl(213, 73%, 22%);
+  --text-color-top: hsl(100, 100%, 100%);
+  --logo-color: hsl(213, 73%, 22%);
+  --title-color: hsl(219, 23%, 22%);
+  --text-color: hsl(213, 21%, 58%);
+  --button-color: hsl(350, 62%, 54%); // offer//cartnumbercolor ni
+  --body-color: hsl(210, 50%, 98%);
+  --container-color: hsl(0, 0%, 100%); //for navbar banner ani product card
+
+  /*====font and typography ===*/
+  --body-font: "Roboto", sans-serif;
+  --biggest-font-size: 2rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1.125rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.875rem;
+  --smaller-font-size: 0.75rem;
+
+  /*===font weight===*/
+  --font-normal: 400;
+  --font-bold: 700;
+
+  /*==margins== */
+  --mb-0-5: 0.5rem;
+  --mb-0-75: 0.75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
+
+/*== Responsive typography ==*/
+//@media

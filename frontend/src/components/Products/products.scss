@@ -1,0 +1,146 @@
+.allproductsection {
+  padding-top: 125px;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 17rem;
+  margin-right: 5rem;
+  overflow: hidden;
+
+
+  &__title {
+    margin: 2vmax auto;
+    width: 15rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 2vmax;
+    color: rgba(0, 0, 0, 0.678);
+    font-weight: 500;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+  }
+
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.85rem;
+    padding: 2rem;
+  }
+}
+
+.paginationbox {
+  display: flex;
+  justify-content: center;
+  margin: 6vmax;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.page-item {
+  background-color: rgb(255, 255, 255);
+  list-style: none;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 0.8rem 1.3rem;
+  transition: all 0.3s;
+  cursor: pointer;
+
+  &:first-child {
+    border-radius: 5px 0 0 5px;
+  }
+
+  &:last-child {
+    border-radius: 0 5px 5px 0;
+  }
+
+  &:hover {
+    background-color: rgb(255, 219, 219);
+  }
+}
+
+.page-link {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: rgb(80, 80, 80);
+  transition: all 0.3s;
+
+  &:hover {
+    color: rgb(0, 0, 0);
+  }
+}
+
+.pageItemActive {
+  background-color: #d24159;
+}
+
+.pageLinkActive {
+  color: white;
+}
+
+//filteration section
+
+.filterbox {
+  width: 14vmax;
+  position: absolute;
+  top: 15rem;
+  left: 3.5rem;
+
+  .MuiTypography-body1 {
+    font-size: 1.1rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #0f3461;
+
+  }
+
+  .MuiSlider-root {
+    color: #0c3260;
+  }
+
+  .filtertitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    border-left: 2rem;
+
+    &__text {
+      color: var(--title-color);
+      font-weight: var(--font-normal);
+
+    }
+  }
+
+  .categorybox {
+    padding: 0;
+
+  }
+
+  .category-link {
+    list-style: none;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s;
+
+    &:hover {
+      color: #0f3461;
+    }
+  }
+
+  fieldset {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: 11rem;
+    padding: 0 1rem;
+    margin: 0;
+  }
+}

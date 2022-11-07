@@ -1,0 +1,133 @@
+.emptyCart {
+    position: relative;
+    top: 8rem;
+    height: 70vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    svg {
+        color: #2b3445;
+        font-size: 5vmax;
+    }
+
+    p {
+        font-size: 2vmax;
+    }
+
+    a {
+        background-color: #2b3445;
+        color: white;
+        font: 400 1.5vmax;
+        text-decoration: none;
+        margin-top: 1rem;
+        padding: 1vmax 3vmax;
+        cursor: pointer;
+        border: none;
+        transition: all 150ms ease-in-out;
+
+        &:hover {
+            background-color: var(--button-color);
+            transform: scale(1.1);
+        }
+    }
+
+}
+
+.cartPage {
+    position: relative;
+    top: 10rem;
+    margin-bottom: 2rem;
+}
+
+.cartHeader {
+    background-color: var(--button-color);
+    width: 90%;
+    margin: auto;
+    color: white;
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr;
+
+    p {
+        margin: 10px;
+    }
+
+    p:last-child {
+        text-align: end;
+    }
+
+}
+
+.cartContainer {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr;
+}
+
+.cartinput {
+
+    display: flex;
+    align-items: center;
+
+    input {
+        width: 40px;
+        text-decoration: none;
+        border: none;
+        outline: none;
+        display: inline-block;
+        align-items: center;
+        text-align: center;
+        background-color: transparent;
+        font-size: 20px;
+        font-weight: 600;
+        color: #2b3445;
+
+        &:active {
+            border: none;
+            outline: none;
+        }
+    }
+
+}
+
+.signbutton {
+    padding: 1rem;
+}
+
+.cartsubtotal {
+    display: flex;
+    padding: 0.5vmax;
+    height: 8vmax;
+    justify-content: flex-end;
+    color: rgba(0, 0, 0, 0.753);
+    font: 300 1.5vmax cursive;
+    align-items: center;
+}
+
+.cartgrosstotal {
+    display: grid;
+    grid-template-columns: 2fr 1.2fr;
+}
+
+.cartgrosstotalbox {
+    border-top: 2px solid var(--button-color);
+    margin: 1vmax 4.5vmax;
+    padding: 2vmax 0;
+    color: #48484a;
+    font: 300 1.5vmax "Roboto";
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkoutbutton {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn__cart {
+    margin: 1vmax 4.5vmax;
+    border-radius: 3px;
+}

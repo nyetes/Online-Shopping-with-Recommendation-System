@@ -1,0 +1,69 @@
+.shippingContainer {
+    position: relative;
+    top: 8rem;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.shippingBox {
+    background-color: white;
+    width: 25vw;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.shippingHeading {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.623);
+    font: 400 1.3vmax "Roboto";
+    border-bottom: 1px solid rgba(0, 0, 0, 0.267);
+    width: 50%;
+    padding: 1.3vmax;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.shippingForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.5rem;
+    gap: 1rem;
+    padding: 2vmax;
+    justify-content: space-evenly;
+    height: 80%;
+    transition: all 0.5s;
+}
+
+.shippingForm>div {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.shippingForm>div> {
+
+    input,
+    select {
+        padding: 1vmax 4vmax;
+        padding-right: 1vmax;
+        outline: none;
+        width: 100%;
+        border: 1px solid rgba(0, 0, 0, 0.267);
+        border-radius: 4px;
+        font: 300 1vmax cursive;
+
+    }
+}
+
+.shippingForm>div {
+    svg {
+        position: absolute;
+        transform: translateX(1vmax);
+        font-size: 1.6vmax;
+        color: #0f3461
+    }
+}
